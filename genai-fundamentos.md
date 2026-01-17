@@ -18,9 +18,9 @@ Entender o que é IA Generativa, diferenciais frente à IA tradicional, LLMs, Ma
 
 A IA generativa é uma "categoria" de inteligência artificial altamente treinada com bilhões de dados, projetada para criar novos conteúdos como textos, imagens, códigos, vídeos ou ate mesmo áudios a partir da captura de padrões. diferentemente de sistemas tradicionais que apenas classificam, recomendam ou tomam decisões baseadas em regras. 
 
-IA tradicional costuma decidir
+- IA tradicional costuma decidir
 
-IA generativa costuma explicar, criar ou interagir
+- IA generativa costuma explicar, criar ou interagir
 
 IA Generativa não substitui IA tradicional.
 Ela complementa, principalmente em tarefas onde linguagem, criatividade e flexibilidade são mais importantes que precisão absoluta.

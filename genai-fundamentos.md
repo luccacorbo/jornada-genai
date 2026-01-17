@@ -50,25 +50,40 @@ Um modelo é uma máquina de reconhecer padrões
 Tipos principais de Machine Learning
 
 1 Aprendizado Supervisionado
+
 Você fornece:
+
 dados de entrada
+
 a resposta correta
 
+
 2️ Aprendizado Não Supervisionado
+
 Você fornece:
+
 apenas os dados
+
 sem resposta correta
 
 O modelo:
+
 encontra padrões
+
 agrupa dados parecidos
 
 
+
 3️ Aprendizado por Reforço
+
 O modelo:
+
 toma ações
+
 recebe recompensa ou punição
+
 aprende por tentativa e erro
+
 
 ## Deep Learning
 

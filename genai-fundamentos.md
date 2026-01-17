@@ -32,10 +32,10 @@ São capazes de aprender padrões e relacionamentos no texto, o que os permite g
 
 ## Desafios e limitações atuais 
 
-- alucinações 
+- alucinações:
 geração de informações falsas ou inventadas apresentadas com alto grau de confiança.
 
-- consumo energético 
+- consumo energético: 
 alto custo computacional e impacto ambiental do treinamento e operação. 
 
 ## Machine Learning

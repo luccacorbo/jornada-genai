@@ -37,12 +37,18 @@ Exemplo:.
 "o" "que" "é" "um" "token" "?" = [46, 661, 1212, 1713, 6602, 1423]
 
 46   ("o")     = [ 0.01, -0.02,  0.03,  0.01, -0.01 ]
-661  ("que")   = [ 0.10, -0.08,  0.05,  0.07, -0.02 ]  
-1212 ("é")     = [ 0.09, -0.04,  0.02,  0.06, -0.01 ]  **⚠️ Esses números são inventados, só pra ilustrar.**
+
+661  ("que")   = [ 0.10, -0.08,  0.05,  0.07, -0.02 ] 
+
+1212 ("é")     = [ 0.09, -0.04,  0.02,  0.06, -0.01 ]
+
 1713 ("um")    = [ 0.02, -0.01,  0.01,  0.02, -0.01 ] 
+
 6602 ("token") = [ 0.80,  0.65, -0.10,  0.72,  0.40 ]
+
 1423 ("?")     = [ 0.00,  0.00,  0.00,  0.01,  0.00 ]
 
+**⚠️ Esses números são inventados, só pra ilustrar.**
 
 
 Os tokens IDs são números que funcionam apenas como **índices técnicos**. Sozinhos, eles não carregam nenhum significado. O token ID `46`, por exemplo, não “sabe” que representa a palavra `"o"` — ele apenas aponta para uma posição interna no modelo.

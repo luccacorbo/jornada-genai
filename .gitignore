@@ -1,0 +1,37 @@
+# Ambiente Virtual
+
+venv/
+.venv/
+env/
+
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Chroma
+
+chroma_db/
+
+# Sistema Operacional
+
+.DS_Store
+Thumbs.db
+
+
+# VSCode
+
+.vscode/
+
+# Logs
+
+*.log
+
+# Arquivos temporários
+
+*.tmp
+*.swp

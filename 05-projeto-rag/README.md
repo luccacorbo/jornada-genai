@@ -177,7 +177,7 @@ Resposta: RAG (Retrieval-Augmented Generation) é uma técnica que combina
 recuperação de informação com geração de texto...
 ```
 
-**Para sair:** Pressione `Ctrl+C`
+**Para sair:** Digite "sair" no terminal para encerrar
 
 ---
 

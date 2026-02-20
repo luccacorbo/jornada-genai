@@ -1,16 +1,22 @@
-import os
+from pathlib import Path
+
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = BASE_DIR.parent
+
+DATA_DIR = PROJECT_ROOT / "data"
+CHROMA_DIR = PROJECT_ROOT / "chroma_db"
+
 # Carregar todos os .md manualmente
 documents = []
 
-for filename in os.listdir("data"):
-    if filename.endswith(".md"):
-        loader = TextLoader(os.path.join("data", filename), encoding="utf-8")
-        documents.extend(loader.load())
+for file_path in DATA_DIR.glob("*.md"):
+    loader = TextLoader(str(file_path), encoding="utf-8")
+    documents.extend(loader.load())
 
 print(f"{len(documents)} documentos carregados.")
 
@@ -33,9 +39,9 @@ embeddings = HuggingFaceEmbeddings(
 vectorstore = Chroma.from_documents(
     docs,
     embeddings,
-    persist_directory="./chroma_db"
+    persist_directory=str(CHROMA_DIR)
 )
 
 vectorstore.persist()
 
-print("Ingestão finalizada com sucesso!")
+print("Ingestão finalizada com sucesso.")

@@ -45,3 +45,6 @@ vectorstore = Chroma.from_documents(
 vectorstore.persist()
 
 print("Ingestão finalizada com sucesso.")
+
+
+

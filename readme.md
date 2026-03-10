@@ -33,6 +33,10 @@ jornada-genai/
 │   │   ├── ingest.py         # Processamento de documentos
 │   │   └── rag.py            # Sistema de perguntas e respostas
 │   └── README.md             # Documentação do projeto
+├── 06-pizzaia/
+│   ├── config.py             # configuração das variaveis de ambiente
+│   ├── ia.py                 # agente 
+|   └── README.md             # Documentação do projeto
 └── README.md                 # Este arquivo
 ```
 
@@ -58,6 +62,13 @@ Arquitetura que combina recuperação de informação com geração de texto, re
 **Tecnologias:** Python, LangChain, Ollama (Llama 3), ChromaDB, HuggingFace Embeddings
 
 [Ver documentação completa do projeto](./05-projeto-rag/README.md)
+
+### 06 - pizzaia
+**Aplicação prática:** Chatbot com LLM que simula um atendente de pizzaria, conduzindo uma conversa do pedido até a entrega.
+
+**Tecnologias:** Python, LangChain, Google Gemini 2.5 Flash, pydantic
+
+[Ver documentação completa do projeto](./06-pizzaia/README.md)
 
 ---
 

@@ -68,7 +68,7 @@ Arquitetura que combina recuperação de informação com geração de texto, re
 
 **Tecnologias:** Python, LangChain, Google Gemini 2.5 Flash, pydantic
 
-[Ver documentação completa do projeto](./06-pizzaia/README.md)
+[Ver documentação completa do projeto](./06-pizzaia/readme.md)
 
 ---
 

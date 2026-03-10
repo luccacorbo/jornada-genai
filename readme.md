@@ -134,15 +134,15 @@ Um assistente de IA que responde perguntas sobre meus estudos em GenAI. O sistem
 
 ## Tecnologias e Ferramentas
 
-**Linguagens:**
-- Python 3.8+
-
-**Frameworks e Bibliotecas:**
-- LangChain - Orquestração de componentes RAG
-- ChromaDB - Banco de dados vetorial
-- HuggingFace - Modelos de embeddings
-- Ollama - Execução de LLMs localmente
-
+| Categoria | Tecnologias |
+|---|---|
+| **Linguagem** | Python 3.8+ |
+| **Orquestração** | LangChain |
+| **Banco Vetorial** | ChromaDB |
+| **Embeddings** | HuggingFace |
+| **LLM Local** | Ollama (Llama 3) |
+| **LLM API** | Google Gemini 2.5 Flash |
+| **Validação** | Pydantic |
 ---
 
 ## Sobre
